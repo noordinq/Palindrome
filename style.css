@@ -42,6 +42,21 @@ h1 {
   justify-content: center;
 }
 
+#check-btn {
+    background-color: purple;
+    color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    height: 30px;
+    width: 20%;
+}
+  
+#text-input {
+    border: none;
+    border-bottom: 2px solid purple;
+    width: 60%;
+}
+
 #result {
   text-align: center;
   padding-top: 10px;
