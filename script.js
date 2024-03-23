@@ -11,3 +11,12 @@ checkButton.addEventListener('click', () => {
     result.innerText = `${textInput.value} is not a palindrome.`;
   }
 })
+
+checkButton.addEventListener('click', () => {
+  const reversedString = textInput.value.split('').reverse().join('');
+  if (textInput.value === reversedString) {
+    result.innerText = `${textInput.value} is a palindrome.`
+  } else {
+    result.innerText = `${textInput.value} is not a palindrome.`
+  }
+})
